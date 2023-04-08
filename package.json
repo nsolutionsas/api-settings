@@ -1,14 +1,19 @@
 {
   "name": "@nsolutions/settings",
-  "version": "0.0.1",
-  "description": "",
-  "author": "Configuraciones de la API usadas constantemente",
+  "version": "0.0.10",
+  "description": "Configuraciones de la API usadas constantemente",
+  "author": "N-Solutions SAS",
   "main": "dist/index.js",
   "license": "public",
   "repository": {
     "type": "git",
     "url": "https://github.com/nsolutionsas/api-settings.git"
   },
+  "keywords": [
+    "nestjs",
+    "settings",
+    "config"
+  ],
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
