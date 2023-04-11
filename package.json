@@ -1,6 +1,6 @@
 {
   "name": "@nsolutions/settings",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "description": "Configuraciones de la API usadas constantemente",
   "author": "N-Solutions SAS",
   "main": "dist/index.js",

@@ -16,8 +16,9 @@ export class SequelizeConfigService implements SequelizeOptionsFactory {
   ) {}
 
   createSequelizeOptions(): SequelizeModuleOptions {
-    const { host, database } = this.dbConfig;
+    const { host, database, synchronize } = this.dbConfig;
     this.logger.debug(`Conectado a ${host}::${database}`);
+    this.logger.debug(`Synchronize: ${synchronize}`);
 
     return {
       dialect: 'postgres',
