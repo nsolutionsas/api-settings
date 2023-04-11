@@ -27,7 +27,7 @@ export class SequelizeConfigService implements SequelizeOptionsFactory {
       password: this.dbConfig.password,
       database: this.dbConfig.database,
       autoLoadModels: true,
-      synchronize: false,
+      synchronize: this.dbConfig.synchronize,
       // sync: { force: true }, // 👿😈☠️☠️💀💀💀🚫🚫⛔⛔⛔⛔ only for development purposes
       sync: { alter: { drop: false } },
       logging: true,
